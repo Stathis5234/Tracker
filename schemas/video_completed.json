@@ -11,15 +11,15 @@
     "properties": {
         "vsid": {
             "description": "Video session ID, unique to a specific video session.",
-            "type": "integer"
+            "type": "string"
         },
         "ts": {
           "description": "UNIX timestamp of the current event.",
-          "type": "integer"
+          "type": "number"
         },
         "prevTs": {
           "description": "UNIX timestamp of the previous event.",
-          "type": "integer"
+          "type": "number"
         },
         "state": {
           "description": "The current state of the player. This can be either playing or paused.",
