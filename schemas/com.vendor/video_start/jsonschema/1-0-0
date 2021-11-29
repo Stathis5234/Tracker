@@ -3,7 +3,7 @@
     "description":      "Video start event, fired when the player is ready to play for the first time.",
     "type":             "object",
     "self": {
-        "vendor":       "vendor",
+        "vendor":       "com.vendor",
         "name":         "video_start",
         "format":       "jsonschema",
         "version":      "1-0-0"

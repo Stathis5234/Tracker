@@ -3,7 +3,7 @@
     "description":      "Video heartbeat event, fired every 10 seconds to track playout progress.",
     "type":             "object",
     "self": {
-        "vendor":       "vendor",
+        "vendor":       "com.vendor",
         "name":         "video_heartbeat",
         "format":       "jsonschema",
         "version":      "1-0-0"

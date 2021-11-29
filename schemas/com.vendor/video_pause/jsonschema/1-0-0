@@ -3,7 +3,7 @@
     "description":      "Video pause event, fired when the player is paused.",
     "type":             "object",
     "self": {
-        "vendor":       "vendor",
+        "vendor":       "com.vendor",
         "name":         "video_pause",
         "format":       "jsonschema",
         "version":      "1-0-0"

@@ -3,7 +3,7 @@
     "description":      "Video completed event, fired when the player has completed the playout of the main content.",
     "type":             "object",
     "self": {
-        "vendor":       "vendor",
+        "vendor":       "com.vendor",
         "name":         "video_completed",
         "format":       "jsonschema",
         "version":      "1-0-0"

@@ -3,7 +3,7 @@
     "description":      "Video seek event, fired when the playhead is moved to a new position.",
     "type":             "object",
     "self": {
-        "vendor":       "vendor",
+        "vendor":       "com.vendor",
         "name":         "video_seek",
         "format":       "jsonschema",
         "version":      "1-0-0"
