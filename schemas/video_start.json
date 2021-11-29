@@ -1,0 +1,40 @@
+{
+    "$schema":          "http://iglucentral.com/schemas/com.snowplowanalytics.self-desc/schema/jsonschema/1-0-0#",
+    "description":      "Video start event, fired when the player is ready to play for the first time.",
+    "type":             "object",
+    "self": {
+        "vendor":       "vendor",
+        "name":         "video_start",
+        "format":       "jsonschema",
+        "version":      "1-0-0"
+      },
+    "properties": {
+        "vsid": {
+            "description": "Video session ID, unique to a specific video session.",
+            "type": "integer"
+        },
+        "ts": {
+          "description": "UNIX timestamp of the current event.",
+          "type": "integer"
+        },
+        "prevTs": {
+          "description": "UNIX timestamp of the previous event.",
+          "type": "integer"
+        },
+        "state": {
+          "description": "The current state of the player. This can be either playing or paused.",
+          "type": "string",
+          "enum": ["playing", "paused"]
+        },
+        "currentTime": {
+          "description": "The current playhead position of the player in seconds.",
+          "type": "number"
+        },
+        "playbackRate": {
+          "description": "The playback speed of the content. The default value is 1.",
+          "type": "number"
+        }
+      },
+      "additionalProperties": false,
+      "required": [ "vsid", "ts", "prevTs", "state", "currentTime", "playbackRate" ]
+}
