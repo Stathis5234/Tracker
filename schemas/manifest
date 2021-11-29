@@ -1,9 +1,5 @@
 {
     "tree": [
-        {"path": "com.vendor/video_start/jsonschema/1-0-0"},
-        {"path": "com.vendor/video_pause/jsonschema/1-0-0"},
-        {"path": "com.vendor/video_seek/jsonschema/1-0-0"},
-        {"path": "com.vendor/video_heartbeat/jsonschema/1-0-0"},
-        {"path": "com.vendor/video_completed/jsonschema/1-0-0"}
+        {"path": "com.vendor/video_start/jsonschema/1-0-0"}
     ]
 }
